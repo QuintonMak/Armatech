@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &717806949858500485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 717806949858500483}
+  - component: {fileID: 717806949858500482}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &717806949858500483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717806949858500485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &717806949858500482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717806949858500485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 173ad378d61f9d04ea15e7e8cca50c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2582253299912230653, guid: a43737a6c8cf5904b921f7698003534f, type: 3}
+  standardEnemy: {fileID: 8633073412342948625, guid: 13c68a0047e972b4b84553c5653896cf, type: 3}
+  tankEnemy: {fileID: 2375890447954056997, guid: 1fc7fc1562a19b04e8919707eb986e59, type: 3}
+  meleeEnemy: {fileID: 4862660517408648598, guid: e28cae841403c5e4ba6fc3648467ff28, type: 3}
+  mortarEnemy: {fileID: 1453713173665137251, guid: 9988e1fcf80243a40a4d497d8204be92, type: 3}
+  turret: {fileID: 1037196869952429612, guid: 5179a8a8eb38dae4f884aa9c6294d55e, type: 3}
+  bossOne: {fileID: 7722592824867078816, guid: 4e9070bd07687f5428ec2a019958b92f, type: 3}
+  bossTwo: {fileID: 8507054832223548116, guid: dc8ed6573e082c84fa6947494d9e79af, type: 3}
+  wall: {fileID: 2297577916019946695, guid: 3a111732f153721468c0c0398888688f, type: 3}
+  shack: {fileID: 388523426808741688, guid: a9bc2eea779f4a4488d81a7d658d4d36, type: 3}
+  log: {fileID: 8123656354745126604, guid: 0298701e52c3c864eb9778d2a27ca49c, type: 3}
+  machine: {fileID: 1182123124809997272, guid: 150bed4c306f07d40a3fac1cf436e1ee, type: 3}
+  brokenWall: {fileID: 7538073539427841490, guid: 2d913cac865385b4a96f16f6fde871a4, type: 3}
+  maxHealth: 100
+  currentHealth: 100
+  maxProtection: 50
+  currentProtection: 50
+  damage: 10
+  cooldown: 10
+  repairCooldown: 600
+  warpCooldown: 600
+  slowDuration: 200
+  missleCooldown: 1200
+  numMissles: 0
+  missleDamage: 100
+  sceneNum: 0
+  checkPointNum: -1
+  titleSceneNum: -1
+  skillPoints: 0
+  upgrades: 0000000000000000000000
