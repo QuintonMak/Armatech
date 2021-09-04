@@ -1,7 +1,7 @@
 # Armatech
 
 # Description
-In the year 2072 you work for a robotics company called Armatech. However, you know that this coorporation has a dark history. You must deal with battling various enemies, while having to deal with the past. 
+In the year 2072 you work for a robotics company called Armatech. However, you know that this coorporation has a dark history. You must deal with battling various enemies, while having to deal with the past. This project was made in Unity, using C#.
 
 # Instructions
 - WASD to move
